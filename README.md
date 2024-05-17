@@ -1,28 +1,23 @@
-# Car-Rental-System
-Car rental system using Django FrameWork.<br /> <br />
-User can login and rent a car and can download the bill generated.
+Car Rental System
+This project involves the development of a car rental system using the Django Framework.
 
-## About Django : 
-Django is an MVT web framework that is used to build web applications.Django has an in-built administration interface which lets you handle your models, user/ group permissions and to manage users. With model interface in place, there is no need for a separate database administration program for all but advanced database functions.Django can check if an entered password is correct by running it through the hash function and comparing the output to the stored hash value.Internally, while it provides choices for almost any functionality you might want (e.g. several popular databases, templating engines, etc.), it can also be extended to use other components if needed.
+Overview of Django:
+Django is a Model-View-Template (MVT) web framework utilized for constructing web applications. It offers an integrated administration interface, allowing efficient management of models, user/group permissions, and user administration. With its built-in model interface, Django eliminates the necessity for a separate database administration program for most basic database operations. Additionally, Django provides robust security features, such as password hashing for authentication purposes. It offers flexibility by supporting various functionalities and components, with the option to extend capabilities as needed.
 
-## Tech Stack Used:
-* HTML
-* CSS
-* Python 
-* SQLITE3 (Default database of django)
+Technology Stack:
+The project utilizes the following technologies:
 
-## Project Demo : 
+HTML
+CSS
+Python
+SQLite3 (Django's default database)
+Project Demonstration:
+
+Installation:
+To set up the project, follow these steps:
+
+Clone the repository.
+Create a superuser by running the command python manage.py createsuperuser to access the admin portal.
+Run the program by executing python manage.py runserver.
 
 
-
-https://user-images.githubusercontent.com/89544124/180066688-a8265b4c-d72c-46b7-985c-c1eb60456f33.mp4
-
-
-## Installation : 
-```
-* Clone the repository
-* Create Superuser (python manage.py createsuperuser) for accessing the admin portal
-* Type python manage.py runserver and run the program
-```
-## Author :
-* Christy Biju (https://github.com/ChristyBiju)
