@@ -18,7 +18,6 @@ from django.urls import path, include
 from django.views.generic.base import TemplateView
 from django.conf import settings
 from django.conf.urls.static import static
-from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -29,4 +28,4 @@ urlpatterns = [
 admin.site.site_header = "CarZest Admin"
 admin.site.site_title = "CarZest Admin Portal"
 admin.site.index_title = "Welcome to CarZest Portal"
-urlpatterns+=staticfiles_urlpatterns()
+urlpatterns+=static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
