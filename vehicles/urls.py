@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path,include
+from django.urls import path, include
 from django.views.generic.base import TemplateView
 from django.conf import settings
 from django.conf.urls.static import static
@@ -29,4 +29,4 @@ urlpatterns = [
 admin.site.site_header = "CarZest Admin"
 admin.site.site_title = "CarZest Admin Portal"
 admin.site.index_title = "Welcome to CarZest Portal"
-urlpatterns=staticfiles_urlpatterns()
+urlpatterns+=staticfiles_urlpatterns()
